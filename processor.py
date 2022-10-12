@@ -1,2 +1,2 @@
 def process(data):
-    return data
+    return [x.strip() for x in data]
