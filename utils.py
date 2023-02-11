@@ -1,2 +1,4 @@
+import json
+
 def format_data(x):
-    return str(x)
+    return json.dumps(x)
