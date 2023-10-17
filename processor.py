@@ -1,2 +1,3 @@
 def process(data):
-    return [x.strip() for x in data]
+    cleaned = [x.strip() for x in data if x]
+    return cleaned
