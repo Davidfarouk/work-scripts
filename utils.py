@@ -1,4 +1,4 @@
 import json
 
-def format_data(x):
-    return json.dumps(x)
+def format_data(x, indent=2):
+    return json.dumps(x, indent=indent)
