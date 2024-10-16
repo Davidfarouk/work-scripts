@@ -1,3 +1,5 @@
+import logging
+
 def process(data):
-    cleaned = [x.strip() for x in data if x]
-    return cleaned
+    logging.info(f"Processing {len(data)} items")
+    return [x.strip() for x in data if x]
